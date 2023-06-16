@@ -28,6 +28,7 @@ public class Customer {
         this.charges = charges;
     }
 
+    // Uses a for loop to go through the companies charges and sums them up before returning
     public int getBalance() {
         int sum = 0;
         for(AccountRecord nums: charges) {
@@ -40,6 +41,7 @@ public class Customer {
         return charges;
     }
 
+    // toString() method to print out the customers info
     @Override
     public String toString() {
         //update this
