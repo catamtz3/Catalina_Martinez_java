@@ -40,8 +40,8 @@ public class Main {
                 for(String[] current: customerData) {
                     if(Integer.parseInt(current[0]) == current_ID) {
                         AccountRecord temp = new AccountRecord();
-                        temp.setCharge(Integer.parseInt(curr[2]));
-                        temp.setChargeDate(curr[3]);
+                        temp.setCharge(Integer.parseInt(current[2]));
+                        temp.setChargeDate(current[3]);
                         accountRecords.add(temp);
                     }
                 }
