@@ -2,7 +2,7 @@ package com.company.chatterbook.model;
 import java.util.List;
 
 public class User {
-    // String that holds the users name
+    // String that holds the user name
     String name;
     // List of chatterPosts for a single user
     List<ChatterPost> chatterPosts;

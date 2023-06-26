@@ -13,7 +13,7 @@ public class ChatterController {
     // A list that holds all ChatterPost users
     private List<User> userList;
 
-    // Method that fills our program with pre-given ChatterPost and User data
+    // A method that fills our program with pre-filled ChatterPost and User data
     public ChatterController() {
         User luis = new User("Luis");
         User sue = new User("Sue");

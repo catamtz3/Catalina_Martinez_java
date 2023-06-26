@@ -1,7 +1,7 @@
 package com.company.chatterbook.model;
 
 public class ChatterPost {
-    // String that holds a single ChatterPosts contents
+    // String that holds a single ChatterPosts content
     public String text;
 
     // ChatterPost constructor that sets the global variable text equal to the passed in text
