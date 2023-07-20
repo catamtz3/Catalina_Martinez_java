@@ -1,6 +1,6 @@
 USE northwind;
 
-# What are the catgegories of products in the database?
+# What are the categories of products in the database?
 SELECT DISTINCT category
 FROM products;
 
@@ -14,8 +14,7 @@ SELECT *
 FROM orders
 WHERE ship_state = 'Pennsylvania';
 
-# List the first and last name of all employees with last names that 
-# start with the letter W 
+# List the first and last name of all employees with last names that start with the letter W 
 SELECT first_name, last_name
 FROM employees
 WHERE last_name LIKE 'W%';
